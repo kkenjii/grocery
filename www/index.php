@@ -38,14 +38,22 @@ function loaded() {
 </script>
         <title>GROCER'S BUDDY</title>
     </head>
-    <body onload="loaded()"
-    <div ="wrapper">
+    <body onload="loaded()">
         <a class="gb-menu-items" href="add.php"><div>ADD ITEM</div></a>
         <a class="gb-menu-items" href="available.php"><div>SHOP</div></a>
         <a class="gb-menu-items" href="list.php"><div>LIST CATEGORY</div></a>
         <button id="cleardata">CLEAR DATA</button>
 
-    </div>
+        <a class="gb-menu-items" href="add.php"><div>ADD ITEM</div></a>
+        <a class="gb-menu-items" href="available.php"><div>SHOP</div></a>
+        <a class="gb-menu-items" href="list.php"><div>LIST CATEGORY</div></a>
+        <button id="cleardata">CLEAR DATA</button>
+
+        <a class="gb-menu-items" href="add.php"><div>ADD ITEM</div></a>
+        <a class="gb-menu-items" href="available.php"><div>SHOP</div></a>
+        <a class="gb-menu-items" href="list.php"><div>LIST CATEGORY</div></a>
+        <button id="cleardata">CLEAR DATA</button>
+
 
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript">
