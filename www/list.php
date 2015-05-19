@@ -42,7 +42,7 @@ function loaded() {
         <title>SHOPPING BUDDY</title>
     </head>
     <body onload="loaded()">
-<div id="wrapper">
+
         <div id="header">
                   <li><a class="main-menu" href="index.php">HOME</a></li>
                 <li><a class="main-menu" href="available.php">SHOP</a></li>
@@ -62,7 +62,7 @@ function loaded() {
         <div id="footer">
             <label>TOTAL: <span id="total-amount"></span></label>
         </div>
-</div>
+
         <script type="text/javascript" src="js/index.js"></script>
               <script type="text/javascript">
 function myFunction() {

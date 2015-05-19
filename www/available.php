@@ -30,6 +30,8 @@
         <script type="text/javascript" charset="utf-8" src="phonegap-0.9.2.js"></script>
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js?ver=1.4.2"></script>
         <script type="text/javascript" src="js/iscroll.js"></script>
+         <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        
         <script type="text/javascript" src="js/processing/processing.min.js"></script>  
 <script type="text/javascript">
 

@@ -39,7 +39,7 @@
         <p>Your browser doesn't support canvas.</p>
         </canvas>
         -->
-        <a class="gb-menu-items" href="index.php"><div>HOME</div></a>
+        <a class="gb-menu-items" href="index.php"><div style="background-color: #0288D1; color:#b3e5fc;"><i class="fa fa-home"></i> HOME</div></a>
 
       <form style="padding-left:10%; padding-right:10%; padding-bottom:10%;">
             <!--<label>NAME: </label>-->
@@ -76,10 +76,10 @@
                          font-weight: 60;
                          background-color: #607d8b; color:#cfd8dc;"><i class="fa fa-plus-square-o fa-3x"></i> </button>
         </form>
-        <div id="items-container">
+        <!--<div id="items-container">
             <div class="gb-grocery-items half-wit"><div class="gb-grocery-items-inner">CHEESE - Php 100.00 <a id="item-1" name="cheese" href="#">ADD TO CART</a></div></div>
             <div class="gb-grocery-items half-wit"><div class="gb-grocery-items-inner">COKE - Php 25.00 <a id="item-2" name="coke" href="#">ADD TO CART</a></div></div>
-        </div>
+        </div>-->
 
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript">
@@ -107,12 +107,12 @@
 
             window.localStorage.setArray("cachedPosts", gatheredPosts);
 
-            for (var i = 0; i < gatheredPosts.length; i++) {
+          /*  for (var i = 0; i < gatheredPosts.length; i++) {
                     var x = document.createElement("div");
                     var t = document.createTextNode(gatheredPosts[i].title+": "+gatheredPosts[i].price);
                     x.appendChild(t);
                     document.body.appendChild(x);
-            }
+            }*/
 
 
             function whatClicked(evt) {

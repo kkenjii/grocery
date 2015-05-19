@@ -39,7 +39,6 @@
         <a class="gb-menu-items" href="list.php"><div style="background-color: #FFFFFF; color:#727272;">LIST CATEGORY</div></a>
         <button id="cleardata" onclick="myFunction()" style="background-color: #607d8b; color:#cfd8dc;">CLEAR DATA</button>
 
-    </div>
  <script type="text/javascript">
 function myFunction() {
     location.reload();
