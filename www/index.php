@@ -29,14 +29,39 @@
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js?ver=1.4.2"></script>
 
         <script type="text/javascript" src="js/processing/processing.min.js"></script>  
-
+        <script type="text/javascript" src="js/iscroll.js"></script>
+<script type="text/javascript">
+var myScroll;
+function loaded() {
+    myScroll = new IScroll('#wrapper');
+}
+</script>
         <title>GROCER'S BUDDY</title>
     </head>
-    <body>
+    <body onload="loaded()"
+    <div ="wrapper">
         <a class="gb-menu-items" href="add.php"><div>ADD ITEM</div></a>
         <a class="gb-menu-items" href="available.php"><div>SHOP</div></a>
         <a class="gb-menu-items" href="list.php"><div>LIST CATEGORY</div></a>
         <button id="cleardata">CLEAR DATA</button>
+        <a class="gb-menu-items" href="add.php"><div>ADD ITEM</div></a>
+        <a class="gb-menu-items" href="available.php"><div>SHOP</div></a>
+        <a class="gb-menu-items" href="list.php"><div>LIST CATEGORY</div></a>
+        <button id="cleardata">CLEAR DATA</button>
+<a class="gb-menu-items" href="add.php"><div>ADD ITEM</div></a>
+        <a class="gb-menu-items" href="available.php"><div>SHOP</div></a>
+        <a class="gb-menu-items" href="list.php"><div>LIST CATEGORY</div></a>
+        <button id="cleardata">CLEAR DATA</button>
+<a class="gb-menu-items" href="add.php"><div>ADD ITEM</div></a>
+        <a class="gb-menu-items" href="available.php"><div>SHOP</div></a>
+        <a class="gb-menu-items" href="list.php"><div>LIST CATEGORY</div></a>
+        <button id="cleardata">CLEAR DATA</button>
+<a class="gb-menu-items" href="add.php"><div>ADD ITEM</div></a>
+        <a class="gb-menu-items" href="available.php"><div>SHOP</div></a>
+        <a class="gb-menu-items" href="list.php"><div>LIST CATEGORY</div></a>
+        <button id="cleardata">CLEAR DATA</button>
+s
+    </div>
 
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript">
