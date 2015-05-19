@@ -27,7 +27,8 @@
 
         <script type="text/javascript" charset="utf-8" src="phonegap-0.9.2.js"></script>
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js?ver=1.4.2"></script>
-
+<link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        
         <script type="text/javascript" src="js/processing/processing.min.js"></script>  
 
         <title>SAPUL</title>
@@ -40,10 +41,40 @@
         -->
         <a class="gb-menu-items" href="index.php"><div>HOME</div></a>
 
-        <form>
-            <label>NAME: </label><input id="name" field="text"/>
-            <label>PRICE: </label><input id="price" field="text"/>
-            <button id="submit-button">ADD ITEM</button>
+      <form style="padding-left:10%; padding-right:10%; padding-bottom:10%;">
+            <!--<label>NAME: </label>-->
+            <input id="name" field="text" placeholder="Name"
+            style="border: 1px solid #607d8b;
+                         width: 100%; 
+                         text-align: center;
+                     font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+                         height: 100px; 
+                         font-size: 2em; 
+                         padding: 2%; 
+                         font-weight: 60;
+                         margin-top:5px;
+                         margin-bottom:5px;"/>
+            <!--<label>PRICE: </label>-->
+            <input id="price" field="text" placeholder="Price"
+            style="border: 1px solid #607d8b; 
+                         width: 100%; 
+                         text-align: center;
+                     font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+                         height: 100px; 
+                         font-size: 2em; 
+                         padding: 2%; 
+                         font-weight: 60;
+                         margin-bottom:5px;"/>
+            <button id="submit-button"
+            style="border: 1px solid #607d8b; 
+                         width: 100%; 
+                         text-align: center;
+                     font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+                         height: 100px; 
+                         font-size: 1.5em; 
+                         padding: 2%; 
+                         font-weight: 60;
+                         background-color: #607d8b; color:#cfd8dc;"><i class="fa fa-plus-square-o fa-3x"></i> </button>
         </form>
         <div id="items-container">
             <div class="gb-grocery-items half-wit"><div class="gb-grocery-items-inner">CHEESE - Php 100.00 <a id="item-1" name="cheese" href="#">ADD TO CART</a></div></div>
@@ -76,6 +107,12 @@
 
             window.localStorage.setArray("cachedPosts", gatheredPosts);
 
+            for (var i = 0; i < gatheredPosts.length; i++) {
+                    var x = document.createElement("div");
+                    var t = document.createTextNode(gatheredPosts[i].title+": "+gatheredPosts[i].price);
+                    x.appendChild(t);
+                    document.body.appendChild(x);
+            }
 
 
             function whatClicked(evt) {

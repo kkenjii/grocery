@@ -42,9 +42,9 @@ function loaded() {
     </head>
     <body onload="loaded()">
             <div id="header">
-            <ul class="menu">
-                <li><a class="main-menu" href="index.php">HOME</a></li>
-                <li><a class="main-menu" href="list.php">CART</a></li>
+         <ul class="menu">
+                <li><a class="main-menu" href="index.php"><i class="fa fa-home"></i> HOME</a></li>
+                <li><a class="main-menu" href="list.php"><i class="fa fa-shopping-cart"></i> CART</a></li>
             </ul>
         </div>
 
