@@ -68,6 +68,14 @@
                         return JSON.parse(this.getItem(key))
             }
 
+            var gatheredPosts = new Array();
+
+            if(window.localStorage.getArray("cachedPosts") != null){
+                gatheredPosts = window.localStorage.getArray("cachedPosts");
+            }
+
+            window.localStorage.setArray("cachedPosts", gatheredPosts);
+
 
 
             function whatClicked(evt) {
