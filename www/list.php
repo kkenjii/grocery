@@ -49,7 +49,7 @@ function loaded() {
                 <li><a class="main-menu" href="index.php">HOME</a></li>
                 <li><a class="main-menu" href="available.php">SHOP</a></li>
                 <li><a class="main-menu" href="list.php">CART</a></li>
-                <button  onmouseover="this.style.backgroundColor= '#d32f2f'" onmouseout="this.style.backgroundColor='#f44336'" id="cleardata">CLEAR CART</button>
+                <button onclick="myFunction()" onmouseover="this.style.backgroundColor= '#d32f2f'" onmouseout="this.style.backgroundColor='#f44336'" id="cleardata">CLEAR CART</button>
             </ul>
             <div class="table-properties">ITEM</div><div class="table-properties">AMOUNT</div><div class="table-properties">SUBTOTAL</div>
         </div>
