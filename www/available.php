@@ -29,9 +29,10 @@
 
         <script type="text/javascript" charset="utf-8" src="phonegap-0.9.2.js"></script>
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js?ver=1.4.2"></script>
-
+        <script type="text/javascript" src="js/iscroll.js"></script>
         <script type="text/javascript" src="js/processing/processing.min.js"></script>  
 <script type="text/javascript">
+
 var myScroll;
 function loaded() {
     myScroll = new IScroll('#wrapper');
@@ -40,8 +41,7 @@ function loaded() {
         <title>GROCER'S BUDDY</title>
     </head>
     <body onload="loaded()">
-<div id="wrapper">
-        <div id="header">
+            <div id="header">
             <ul class="menu">
                 <li><a class="main-menu" href="index.php">HOME</a></li>
                 <li><a class="main-menu" href="list.php">CART</a></li>
@@ -55,7 +55,6 @@ function loaded() {
             </ul>
         </div>
         </div>
-</div>
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript">
             app.initialize();

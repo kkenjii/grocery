@@ -29,21 +29,15 @@
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js?ver=1.4.2"></script>
 
         <script type="text/javascript" src="js/processing/processing.min.js"></script>  
-<script type="text/javascript">
-var myScroll;
-function loaded() {
-    myScroll = new IScroll('#wrapper');
-}
-</script>
+
         <title>SAPUL</title>
     </head>
-    <body onload="loaded()">
+    <body>
         <!--
         <canvas id="myDrawing" data-processing-sources="hello-web.pde">
         <p>Your browser doesn't support canvas.</p>
         </canvas>
         -->
-<div id="wrapper">
         <a class="gb-menu-items" href="index.php"><div>HOME</div></a>
 
         <form>
@@ -51,10 +45,7 @@ function loaded() {
             <label>PRICE: </label><input id="price" field="text"/>
             <button id="submit-button">ADD ITEM</button>
         </form>
-        <div id="items-container">
-            <div class="gb-grocery-items half-wit"><div class="gb-grocery-items-inner">CHEESE - Php 100.00 <a id="item-1" name="cheese" href="#">ADD TO CART</a></div></div>
-            <div class="gb-grocery-items half-wit"><div class="gb-grocery-items-inner">COKE - Php 25.00 <a id="item-2" name="coke" href="#">ADD TO CART</a></div></div>
-        </div>
+     
 
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript">

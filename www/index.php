@@ -30,12 +30,6 @@
 
         <script type="text/javascript" src="js/processing/processing.min.js"></script>  
         <script type="text/javascript" src="js/iscroll.js"></script>
-<script type="text/javascript">
-var myScroll;
-function loaded() {
-    myScroll = new IScroll('#wrapper');
-}
-</script>
         <title>GROCER'S BUDDY</title>
     </head>
     <body >
