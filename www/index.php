@@ -38,7 +38,7 @@ function loaded() {
 </script>
         <title>GROCER'S BUDDY</title>
     </head>
-    <body onload="loaded()">
+    <body >
         <a class="gb-menu-items" href="add.php"><div>ADD ITEM</div></a>
         <a class="gb-menu-items" href="available.php"><div>SHOP</div></a>
         <a class="gb-menu-items" href="list.php"><div>LIST CATEGORY</div></a>
