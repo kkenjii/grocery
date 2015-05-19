@@ -37,10 +37,14 @@
         <a class="gb-menu-items" href="add.php"><div>ADD ITEM</div></a>
         <a class="gb-menu-items" href="available.php"><div>SHOP</div></a>
         <a class="gb-menu-items" href="list.php"><div>LIST CATEGORY</div></a>
-        <button id="cleardata">CLEAR DATA</button>
+        <button id="cleardata" onclick="myFunction()">CLEAR DATA</button>
 
     </div>
-
+ <script type="text/javascript">
+function myFunction() {
+    location.reload();
+}
+</script>
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript">
             app.initialize();

@@ -38,6 +38,7 @@ function loaded() {
     myScroll = new IScroll('#wrapper');
 }
 </script>
+
         <title>SHOPPING BUDDY</title>
     </head>
     <body onload="loaded()">
@@ -47,7 +48,7 @@ function loaded() {
                 <li><a class="main-menu" href="index.php">HOME</a></li>
                 <li><a class="main-menu" href="available.php">SHOP</a></li>
                 <li><a class="main-menu" href="list.php">CART</a></li>
-                <button id="cleardata">CLEAR CART</button>
+                <button id="cleardata" onclick="myFunction()">CLEAR CART</button>
             </ul>
             <div class="table-properties">ITEM</div><div class="table-properties">AMOUNT</div><div class="table-properties">SUBTOTAL</div>
         </div>
@@ -64,6 +65,11 @@ function loaded() {
         </div>
 </div>
         <script type="text/javascript" src="js/index.js"></script>
+              <script type="text/javascript">
+function myFunction() {
+    location.reload();
+}
+</script>
         <script type="text/javascript">
             app.initialize();
 
