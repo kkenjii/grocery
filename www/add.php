@@ -68,6 +68,21 @@
                         return JSON.parse(this.getItem(key))
             }
 
+            var gatheredPosts = new Array();
+
+            if(window.localStorage.getArray("cachedPosts") != null){
+                gatheredPosts = window.localStorage.getArray("cachedPosts");
+            }
+
+            window.localStorage.setArray("cachedPosts", gatheredPosts);
+
+            for (var i = 0; i < gatheredPosts.length; i++) {
+                    var x = document.createElement("div");
+                    var t = document.createTextNode(gatheredPosts[i].title+": "+gatheredPosts[i].price);
+                    x.appendChild(t);
+                    document.body.appendChild(x);
+            }
+
 
             function whatClicked(evt) {
                 /*
