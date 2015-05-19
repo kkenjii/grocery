@@ -31,11 +31,16 @@
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js?ver=1.4.2"></script>
 
         <script type="text/javascript" src="js/processing/processing.min.js"></script>  
-
+        <script type="text/javascript">
+var myScroll;
+function loaded() {
+    myScroll = new IScroll('#wrapper');
+}
+</script>
         <title>SHOPPING BUDDY</title>
     </head>
-    <body>
-
+    <body onload="loaded()">
+<div id="wrapper">
         <div id="header">
             <ul class="menu">
                 <li><a class="main-menu" href="index.php">HOME</a></li>
@@ -56,7 +61,7 @@
         <div id="footer">
             <label>TOTAL: <span id="total-amount"></span></label>
         </div>
-
+</div>
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript">
             app.initialize();

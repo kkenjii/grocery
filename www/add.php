@@ -29,16 +29,21 @@
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js?ver=1.4.2"></script>
 
         <script type="text/javascript" src="js/processing/processing.min.js"></script>  
-
+<script type="text/javascript">
+var myScroll;
+function loaded() {
+    myScroll = new IScroll('#wrapper');
+}
+</script>
         <title>SAPUL</title>
     </head>
-    <body>
+    <body onload="loaded()">
         <!--
         <canvas id="myDrawing" data-processing-sources="hello-web.pde">
         <p>Your browser doesn't support canvas.</p>
         </canvas>
         -->
-
+<div id="wrapper">
         <a class="gb-menu-items" href="index.php"><div>HOME</div></a>
 
         <form>
