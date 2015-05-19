@@ -44,7 +44,9 @@ function loaded() {
     <body onload="loaded()">
 
         <div id="header">
-                  <li><a class="main-menu" href="index.php">HOME</a></li>
+
+            <ul class="menu">
+                <li><a class="main-menu" href="index.php">HOME</a></li>
                 <li><a class="main-menu" href="available.php">SHOP</a></li>
                 <li><a class="main-menu" href="list.php">CART</a></li>
                 <button  onmouseover="this.style.backgroundColor= '#d32f2f'" onmouseout="this.style.backgroundColor='#f44336'" id="cleardata">CLEAR CART</button>
