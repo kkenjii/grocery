@@ -45,7 +45,10 @@
             <label>PRICE: </label><input id="price" field="text"/>
             <button id="submit-button">ADD ITEM</button>
         </form>
-     
+        <div id="items-container">
+            <div class="gb-grocery-items half-wit"><div class="gb-grocery-items-inner">CHEESE - Php 100.00 <a id="item-1" name="cheese" href="#">ADD TO CART</a></div></div>
+            <div class="gb-grocery-items half-wit"><div class="gb-grocery-items-inner">COKE - Php 25.00 <a id="item-2" name="coke" href="#">ADD TO CART</a></div></div>
+        </div>
 
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript">
@@ -63,21 +66,6 @@
             }
                 Storage.prototype.getArray = function(key) {
                         return JSON.parse(this.getItem(key))
-            }
-
-            var gatheredPosts = new Array();
-
-            if(window.localStorage.getArray("cachedPosts") != null){
-                gatheredPosts = window.localStorage.getArray("cachedPosts");
-            }
-
-            window.localStorage.setArray("cachedPosts", gatheredPosts);
-
-            for (var i = 0; i < gatheredPosts.length; i++) {
-                    var x = document.createElement("div");
-                    var t = document.createTextNode(gatheredPosts[i].title+": "+gatheredPosts[i].price);
-                    x.appendChild(t);
-                    document.body.appendChild(x);
             }
 
 

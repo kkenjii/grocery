@@ -30,24 +30,16 @@
 
         <script type="text/javascript" src="js/processing/processing.min.js"></script>  
         <script type="text/javascript" src="js/iscroll.js"></script>
+
         <title>GROCER'S BUDDY</title>
     </head>
-    <body >
+    <body>
         <a class="gb-menu-items" href="add.php"><div>ADD ITEM</div></a>
         <a class="gb-menu-items" href="available.php"><div>SHOP</div></a>
         <a class="gb-menu-items" href="list.php"><div>LIST CATEGORY</div></a>
         <button id="cleardata">CLEAR DATA</button>
 
-        <a class="gb-menu-items" href="add.php"><div>ADD ITEM</div></a>
-        <a class="gb-menu-items" href="available.php"><div>SHOP</div></a>
-        <a class="gb-menu-items" href="list.php"><div>LIST CATEGORY</div></a>
-        <button id="cleardata">CLEAR DATA</button>
-
-        <a class="gb-menu-items" href="add.php"><div>ADD ITEM</div></a>
-        <a class="gb-menu-items" href="available.php"><div>SHOP</div></a>
-        <a class="gb-menu-items" href="list.php"><div>LIST CATEGORY</div></a>
-        <button id="cleardata">CLEAR DATA</button>
-
+    </div>
 
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript">
